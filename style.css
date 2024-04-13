@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto Mono", monospace;
+
+    background-color:#1D2259;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.container{
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-top: 3px solid;
+    border-color: #F70796;
+    border-radius: 15px;
+    height: 300px;
+    width: 500px;
+}
+.card{
+    /* border: 1px solid; */
+    padding: 25px;
+}
+.label-input{
+    padding-top: 30px ;
+}
+.img-container{
+    margin-top: 20px;
+}
+img{
+    border: 1px solid rgb(21, 25, 82);
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 5px;
+    
+}
+progress{
+    height: 20px;
+    width: 78%;
+    accent-color: #48D9DE;
+}
+span{
+    cursor: pointer;
+    border: 1px solid rgb(9, 26, 48);
+    font-size: 8px;
+    padding: 10px 8px;
+    border-radius: 50%;
+   margin-left: 13px;
+}
+span:hover{
+    background-color: #555db4;
+    opacity: 0.4;
+}
