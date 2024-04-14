@@ -41,7 +41,7 @@ img{
     border-radius: 50%;
     margin: 3px;
     padding: 5px;
-    
+    cursor: pointer;
 }
 progress{
     height: 20px;
@@ -54,16 +54,28 @@ span{
     font-size: 8px;
     padding: 10px 8px;
     border-radius: 50%;
-   margin-left: 13px;
+    position: relative;
+    left: 20px;
 }
 span:hover{
     background-color: #555db4;
     opacity: 0.4;
 }
+.first{
+    background-color: rgb(75, 72, 218);
+}
 @media (max-width:600px) {
     body {
-        
-        font-size: 12px;
+         font-size: 12px;
     }
 
+    span{
+        cursor: pointer;
+        border: 1px solid rgb(9, 26, 48);
+        font-size: 8px;
+        padding: 10px 8px;
+        border-radius: 50%;
+        position: relative;
+        left: 50px;
+    }
 }

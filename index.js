@@ -14,3 +14,10 @@ span.addEventListener("click" , ()=>{
         para.innerHTML = vita
      }
 })
+
+const img = document.querySelectorAll("img")
+img.forEach((image)=>{
+    image.addEventListener("click" , ()=>{
+     image.classList.toggle("first")
+    })
+})
